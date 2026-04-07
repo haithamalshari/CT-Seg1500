@@ -15,13 +15,15 @@ This repository contains:
 ## Dataset structure (final)
 
 The final dataset is organized into two branches:
-CT-Seg-1500/
-    Segmented Scans/
-        ct_scans/
-        masks/
-    Normal Scans/
-        ct_scans/
-        masks/
+
+CT-Seg1500/
+├─ Segmented Scans//
+│  ├─ ct_scans/
+│  └─ masks/ 
+└─ Normal Scans/
+   ├─ ct_scans/
+   └─ qmasks/
+
 
 **Final cohort size**
 - Segmented (abnormal) scans: **942 CT + 942 masks**
