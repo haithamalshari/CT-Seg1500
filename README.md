@@ -16,6 +16,7 @@ This repository contains:
 
 The final dataset is organized into two branches:
 
+```text
 CT-Seg1500/
 ├── Segmented Scans/
 │   ├── ct_scans/
@@ -23,6 +24,7 @@ CT-Seg1500/
 └── Normal Scans/
     ├── ct_scans/
     └── qmasks/
+```
 
 
 **Final cohort size**
