@@ -1,0 +1,5 @@
+folder,n_nii_remaining,n_niigz
+segmented_ct,0,943
+segmented_mask,0,943
+normal_ct,0,640
+normal_mask,0,640

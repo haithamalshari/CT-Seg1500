@@ -1,0 +1,10 @@
+{
+    "Segmented Scans": {
+        "ct_scans": 942,
+        "masks": 942
+    },
+    "Normal Scans": {
+        "ct_scans": 640,
+        "masks": 640
+    }
+}
