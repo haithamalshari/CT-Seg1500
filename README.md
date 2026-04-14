@@ -26,9 +26,9 @@ The pipeline integrates multiple datasets into a unified representation:
 
 - Multi-source merge (CQ500-51, CT-ICH, HemSeg500, BHSD, INSTANCE2022, RSNA-normal)
 - Pairing and integrity checks
+- File standardization
 - Slice-thickness (z-spacing) harmonization
 - HU sanity correction and QC
-- File standardization
 - Final releases + full audit reports
 
 ---
@@ -123,13 +123,13 @@ Designed for:
 
 The preprocessing pipeline includes:
 
-- Duplicate removal (HemSeg500 vs merged cohort)
+- Merging
 - CT–mask pairing validation
+- Standardization to `.nii.gz`
 - HU sanity checks and normalization
 - Slice-thickness policy:
   - Resample thin slices (<4 mm) → ~5 mm
   - Preserve thicker scans (no artificial interpolation)
-- Standardization to `.nii.gz`
 - Export to NPY formats
 
 All transformations are logged in:
