@@ -4,7 +4,7 @@ type: dataset
 title: "CT-Seg1500: A harmonized, slice-thickness-aware, transformer-ready multi-source brain CT cohort and preprocessing framework for intracranial hemorrhage segmentation and diagnosis"
 authors:
   - family-names: "Alshari"
-    given-names: "Haitham"
+    given-names: "Haithm"
     affiliation: "ESKISEHIR OSMANGAZI UNIVERSITY, FACULTY OF ARTS AND SCIENCES, DEPARTMENT OF MATHEMATICS AND COMPUTER"
     orcid: "https://orcid.org/0000-0002-1729-6368"
 repository-code: "https://github.com/haithamalshari/CT-Seg1500"
@@ -26,6 +26,4 @@ license: "MIT"
 version: "1.0.0"
 date-released: "2026-04-08"
 
-# After you mint a Zenodo DOI for a GitHub Release, add it here.
-# GitHub-Zenodo DOI is typically created on release; pre-reserving via GitHub integration isn’t supported. :contentReference[oaicite:3]{index=3}
-# doi: "10.5281/zenodo.XXXXXXX"
+doi: "10.5281/zenodo.19696016"
