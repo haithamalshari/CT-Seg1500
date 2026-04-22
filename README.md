@@ -1,4 +1,4 @@
-````md
+
 # CT-Seg1500
 
 CT-Seg1500 is a **harmonized, slice-thickness-aware, transformer-ready multi-source brain CT cohort and preprocessing framework** for intracranial hemorrhage (ICH) **segmentation and diagnosis**. :contentReference[oaicite:0]{index=0}
