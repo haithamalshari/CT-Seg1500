@@ -20,7 +20,7 @@ CT-Seg1500 is a **harmonized, slice-thickness-aware, transformer-ready multi-sou
 
 ## Overview Pipeline
 
-![Preprocessing Pipeline](CT-Seg1500/figures/Flow%20Diagram%2001.png)
+![Preprocessing Pipeline](CT-Seg1500/CT-Seg1500-Info/figures/Flow%20Diagram%2001.png)
 
 The pipeline integrates multiple datasets into a unified representation:
 
@@ -67,7 +67,7 @@ The pipeline integrates multiple datasets into a unified representation:
 
 ## Dataset Structure
 
-![Dataset folder layout](CT-Seg1500-Info/figures/Folder%20layout.png)
+![Dataset folder layout](CT-Seg1500/CT-Seg1500-Info/figures/Folder%20layout.png)
 
 Each case consists of:
 - 3D CT volume
