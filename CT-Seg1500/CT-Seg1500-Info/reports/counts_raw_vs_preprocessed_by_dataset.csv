@@ -1,0 +1,7 @@
+branch,source_dataset,n_cases_raw,n_cases_preprocessed,delta
+normal,RSNA-Normal,640,640,0
+segmented,BHSD,192,191,-1
+segmented,CQ500-51,51,51,0
+segmented,CT-ICH,75,75,0
+segmented,HemSeg500,525,525,0
+segmented,Instance22,100,100,0

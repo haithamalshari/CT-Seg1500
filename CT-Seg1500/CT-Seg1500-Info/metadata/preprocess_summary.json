@@ -1,0 +1,21 @@
+{
+  "input_cases": 1583,
+  "preprocessed_cases": 1582,
+  "failed_cases": 0,
+  "dropped_non_hu_like": 1,
+  "dropped_unresolved_error": 0,
+  "segmented_ct_files": 942,
+  "segmented_mask_files": 942,
+  "normal_ct_files": 640,
+  "normal_mask_files": 640,
+  "final_ct_files": 1582,
+  "final_mask_files": 1582,
+  "resampled_to_5mm": 126,
+  "kept_original": 1456,
+  "offset_minus_1024": 0,
+  "no_offset_fix": 1582,
+  "sitk_ct_reads": 1551,
+  "nibabel_ct_fallback_reads": 32,
+  "sitk_mask_reads": 1559,
+  "nibabel_mask_fallback_reads": 24
+}

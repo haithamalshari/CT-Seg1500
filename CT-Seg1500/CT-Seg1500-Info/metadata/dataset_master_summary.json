@@ -1,0 +1,101 @@
+{
+  "raw_case_count": 1583,
+  "preprocessed_case_count": 1582,
+  "removed_case_count": 1,
+  "added_case_count": 0,
+  "preprocess_summary": {
+    "input_cases": 1583,
+    "preprocessed_cases": 1582,
+    "failed_cases": 0,
+    "dropped_non_hu_like": 1,
+    "dropped_unresolved_error": 0,
+    "segmented_ct_files": 942,
+    "segmented_mask_files": 942,
+    "normal_ct_files": 640,
+    "normal_mask_files": 640,
+    "final_ct_files": 1582,
+    "final_mask_files": 1582,
+    "resampled_to_5mm": 126,
+    "kept_original": 1456,
+    "offset_minus_1024": 0,
+    "no_offset_fix": 1582,
+    "sitk_ct_reads": 1551,
+    "nibabel_ct_fallback_reads": 32,
+    "sitk_mask_reads": 1559,
+    "nibabel_mask_fallback_reads": 24
+  },
+  "counts_by_dataset": [
+    {
+      "branch": "normal",
+      "source_dataset": "RSNA-Normal",
+      "n_cases_raw": 640,
+      "n_cases_preprocessed": 640,
+      "delta": 0
+    },
+    {
+      "branch": "segmented",
+      "source_dataset": "BHSD",
+      "n_cases_raw": 192,
+      "n_cases_preprocessed": 191,
+      "delta": -1
+    },
+    {
+      "branch": "segmented",
+      "source_dataset": "CQ500-51",
+      "n_cases_raw": 51,
+      "n_cases_preprocessed": 51,
+      "delta": 0
+    },
+    {
+      "branch": "segmented",
+      "source_dataset": "CT-ICH",
+      "n_cases_raw": 75,
+      "n_cases_preprocessed": 75,
+      "delta": 0
+    },
+    {
+      "branch": "segmented",
+      "source_dataset": "HemSeg500",
+      "n_cases_raw": 525,
+      "n_cases_preprocessed": 525,
+      "delta": 0
+    },
+    {
+      "branch": "segmented",
+      "source_dataset": "Instance22",
+      "n_cases_raw": 100,
+      "n_cases_preprocessed": 100,
+      "delta": 0
+    }
+  ],
+  "combined_branch_summary": [
+    {
+      "branch": "normal",
+      "n_cases": 640,
+      "ct_sz_min": 3.723325490951538,
+      "ct_sz_med": 5.0,
+      "ct_sz_iqr": 0.0,
+      "ct_sz_max": 5.392516613006592,
+      "ct_D_med": 34.0,
+      "ct_D_iqr": 4.0,
+      "hu_like_true": 640,
+      "hu_like_false": 0,
+      "n_resample_to_5mm": 42,
+      "n_keep_original": 598
+    },
+    {
+      "branch": "segmented",
+      "n_cases": 943,
+      "ct_sz_min": 0.5,
+      "ct_sz_med": 5.0,
+      "ct_sz_iqr": 0.20004677772521973,
+      "ct_sz_max": 6.5181884765625,
+      "ct_D_med": 32.0,
+      "ct_D_iqr": 6.0,
+      "hu_like_true": 942,
+      "hu_like_false": 1,
+      "n_resample_to_5mm": 84,
+      "n_keep_original": 858
+    }
+  ]
+}

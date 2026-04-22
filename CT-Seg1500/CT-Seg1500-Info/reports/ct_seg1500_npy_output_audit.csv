@@ -1,0 +1,9 @@
+dataset,branch,subdir,n_npy_files
+NPY,Segmented Scans,ct_scans,1884
+NPY,Segmented Scans,masks,1884
+NPY,Normal Scans,ct_scans,1280
+NPY,Normal Scans,masks,1280
+Precomputed,Segmented Scans,ct_scans,1884
+Precomputed,Segmented Scans,masks,1884
+Precomputed,Normal Scans,ct_scans,1280
+Precomputed,Normal Scans,masks,1280

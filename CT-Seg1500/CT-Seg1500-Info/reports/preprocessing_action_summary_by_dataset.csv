@@ -1,0 +1,7 @@
+branch,source_dataset,n_cases,n_keep_original,n_resample_to_5mm,n_drop_non_hu_like,n_unresolved_error,hu_like_true,hu_like_false,needs_offset_fix_true,mask_empty_n,sitk_ct_reads,nibabel_ct_fallback_reads,sitk_mask_reads,nibabel_mask_fallback_reads,resample_pct,drop_non_hu_like_pct
+normal,RSNA-Normal,640,598,42,0,0,640,0,0,640,640,0,640,0,6.5625,0.0
+segmented,BHSD,192,170,21,1,0,191,1,1,0,192,0,192,0,10.9375,0.5208333333333334
+segmented,CQ500-51,51,5,46,0,0,51,0,0,0,19,32,27,24,90.19607843137256,0.0
+segmented,CT-ICH,75,75,0,0,0,75,0,0,39,75,0,75,0,0.0,0.0
+segmented,HemSeg500,525,508,17,0,0,525,0,0,0,525,0,525,0,3.238095238095238,0.0
+segmented,Instance22,100,100,0,0,0,100,0,0,0,100,0,100,0,0.0,0.0

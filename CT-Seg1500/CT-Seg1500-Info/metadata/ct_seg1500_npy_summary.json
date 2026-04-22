@@ -1,0 +1,73 @@
+{
+  "source_root": "/Volumes/DATA exFAT/CT-Seg1500 Source Datasets/CT-Seg1500-Preprocessed",
+  "output_npy_root": "/Volumes/MacOS Move/CT-Seg1500-NPY",
+  "output_precomputed_root": "/Volumes/MacOS Move/CT-Seg1500-NPY-Precomputd",
+  "n_pairs_total": 1582,
+  "n_unpaired": 0,
+  "npy": {
+    "ok": 1582,
+    "failed": 0,
+    "ct_sitk_reads": 1582,
+    "ct_nibabel_fallback_reads": 0,
+    "mask_sitk_reads": 1582,
+    "mask_nibabel_fallback_reads": 0
+  },
+  "precomputed": {
+    "ok": 1582,
+    "failed": 0,
+    "ct_sitk_reads": 1582,
+    "ct_nibabel_fallback_reads": 0,
+    "mask_sitk_reads": 1582,
+    "mask_nibabel_fallback_reads": 0
+  },
+  "audit": [
+    {
+      "dataset": "NPY",
+      "branch": "Segmented Scans",
+      "subdir": "ct_scans",
+      "n_npy_files": 1884
+    },
+    {
+      "dataset": "NPY",
+      "branch": "Segmented Scans",
+      "subdir": "masks",
+      "n_npy_files": 1884
+    },
+    {
+      "dataset": "NPY",
+      "branch": "Normal Scans",
+      "subdir": "ct_scans",
+      "n_npy_files": 1280
+    },
+    {
+      "dataset": "NPY",
+      "branch": "Normal Scans",
+      "subdir": "masks",
+      "n_npy_files": 1280
+    },
+    {
+      "dataset": "Precomputed",
+      "branch": "Segmented Scans",
+      "subdir": "ct_scans",
+      "n_npy_files": 1884
+    },
+    {
+      "dataset": "Precomputed",
+      "branch": "Segmented Scans",
+      "subdir": "masks",
+      "n_npy_files": 1884
+    },
+    {
+      "dataset": "Precomputed",
+      "branch": "Normal Scans",
+      "subdir": "ct_scans",
+      "n_npy_files": 1280
+    },
+    {
+      "dataset": "Precomputed",
+      "branch": "Normal Scans",
+      "subdir": "masks",
+      "n_npy_files": 1280
+    }
+  ]
+}
