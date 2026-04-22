@@ -1,6 +1,0 @@
-source_dataset,n_cases_raw,n_cases_prep,resampled_est_n,resampled_est_pct
-CQ500-51,51,51,46,90.19607843137256
-BHSD,192,191,21,10.9375
-HemSeg500,525,525,17,3.238095238095238
-CT-ICH,75,75,0,0.0
-INSTANCE2022,100,100,0,0.0

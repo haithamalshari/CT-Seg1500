@@ -1,2 +1,0 @@
-branch,source_dataset,n_cases_raw,n_cases_prep,D_med_raw,D_iqr_raw,D_med_prep,D_iqr_prep
-normal,RSNA-normal,640,640,34.0,4.0,33.0,3.0
