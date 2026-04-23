@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use CT-Seg1500 (data, reports, or code), please cite it using the metadata below."
 type: dataset
-title: "CT-Seg1500: A harmonized, slice-thickness-aware, transformer-ready multi-source brain CT cohort and preprocessing framework for intracranial hemorrhage segmentation and diagnosis"
+title: "CT-Seg1500: A slice-thickness-aware harmonization and preprocessing framework for multi-source brain CT in transformer-based intracranial hemorrhage segmentation and diagnosis"
 authors:
   - family-names: "Alshari"
     given-names: "Haithm"
@@ -10,10 +10,7 @@ authors:
 repository-code: "https://github.com/haithamalshari/CT-Seg1500"
 url: "https://github.com/haithamalshari/CT-Seg1500"
 abstract: >
-  CT-Seg1500 provides a curated and harmonized brain non-contrast CT cohort for intracranial hemorrhage research.
-  It includes a merged segmented abnormal branch and RSNA-derived normal branch, slice-thickness-aware harmonization
-  around 5 mm, HU sanity correction, standardized 3D NIfTI outputs, and fast NumPy exports (raw and precomputed
-  multi-window) for transformer training. The repository includes full QC/audit logs and reproducible build scripts.
+    CT-Seg1500 is a slice-thickness-aware harmonization and preprocessing framework for multi-source brain non-contrast CT in intracranial hemorrhage research. It builds segmented abnormal and RSNA-derived normal cohorts, applies ~5 mm harmonization, HU sanity correction, and audit-driven quality control, and generates standardized 3D outputs in compressed NIfTI and raw/precomputed NumPy formats for transformer-based experiments. Owing to source-dataset licensing constraints, only the framework, metadata, audit/QC logs, and reproducible build scripts are released, not the redistributed final dataset.
 keywords:
   - brain CT
   - intracranial hemorrhage
