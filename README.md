@@ -1,20 +1,24 @@
 # CT-Seg1500
 
-CT-Seg1500 is a **harmonized, slice-thickness-aware, transformer-ready multi-source brain CT dataset and preprocessing framework** for intracranial hemorrhage (ICH) segmentation and diagnosis.
+**CT-Seg1500** is a slice-thickness-aware harmonization and preprocessing framework for multi-source brain CT in transformer-based intracranial hemorrhage (ICH) segmentation and diagnosis.
+
+Due to licensing and legal constraints affecting most source datasets, this repository releases the **framework, metadata, reports, and reconstruction pipeline**, rather than redistributing the final derived dataset itself.
 
 ---
 
 ## TL;DR
 
-- **1,582 CT volumes** (942 segmented + 640 normal)
-- Aggregated from **5 public datasets + RSNA-derived normals**
-- Slice-thickness harmonization (~5 mm target)
-- Standardized HU handling and QC
-- Multi-format releases:
-  - NIfTI (.nii.gz)
-  - Raw NumPy (.npy)
-  - Precomputed 3-channel NumPy
-- Full **audit trail and reproducibility pipeline**
+* **1,582 CT volumes** in the built cohort (**942 segmented + 640 normal**)
+* Aggregated from **5 public datasets + RSNA-derived normals**
+* **Slice-thickness-aware harmonization** (~5 mm target)
+* **Standardized HU handling** and quality control
+* Framework generates three output formats:
+
+  * **Compressed NIfTI (.nii.gz)**
+  * **Raw NumPy (.npy)**
+  * **Precomputed three-channel NumPy**
+* **Audit trail, reproducible case index, and build pipeline**
+* Due to source-dataset licensing constraints, this repository releases the **framework and reconstruction pipeline**, not the redistributed final dataset
 
 ---
 
