@@ -161,7 +161,8 @@ CT-Seg1500/
 ├── CT-Seg1500-Info/
 │   ├── reports/        # CSV logs, deltas, per-case features, summaries
 │   ├── metadata/       # JSON structure summaries
-│   └── figures/        # PNG figures used in the paper
+│   ├── figures/         # PNG figures used in the paper
+│   └── Benchmarking/    # lightweight benchmark results (e.g., 10–20 epoch runs)
 │
 ├── Labels/             # label merge CSVs (optional public release)
 ├── Splits/             # train/val JSONs (1ch + 3ch)
