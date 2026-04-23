@@ -20,7 +20,7 @@ keywords:
   - slice thickness harmonization
   - transformers
 license: "MIT"
-version: "1.0.0"
+version: "1.2"
 date-released: "2026-04-08"
 
-doi: "https://doi.org/10.5281/zenodo.19696015"
+doi: "10.5281/zenodo.19696015"
